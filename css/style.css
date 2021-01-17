@@ -39,9 +39,9 @@ body{
     overflow: hidden;
 }
 .nav-links a {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
-    color: white;
+    color: green;
     text-decoration: none;
     position: relative;
     display: block;
@@ -51,9 +51,9 @@ body{
 
 
 .nav-links a {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
-    color: white;
+    color:green;
     text-decoration: none;
     position: relative;
     display: block;
@@ -87,6 +87,11 @@ body{
     font-size: 80px;
     font-family: "Abril Fatface", cursive;
     font-weight: 100;
+    position: absolute;
+    left: 10%;
+    top: 45%;
+    
+
 }
 .delivery-link {
     line-height: 20px;
@@ -179,19 +184,23 @@ body{
 }
 
 .plant1 {
-    background: url(images/nos_meilleures_ventes/1.jpg);
+    background: url(../images/bananes.jpg);
+    width: 85px;
+    height: 25%;
+
+
 }
 
 .plant2 {
-    background: url(images/nos_meilleures_ventes/2.jpg);
+    background: url(../images/Mangos.jpg);
 }
 
 .plant3 {
-    background: url(images/nos_meilleures_ventes/3.jpg);
+    background: url(../images/corosole.jpg);
 }
 
 .plant4 {
-    background: url(images/nos_meilleures_ventes/4.jpg);
+    background: url(../images/fruits-et-legumes.jpg);
 }
 
 .plant-box::before {
@@ -249,19 +258,26 @@ body{
 }
 
 .plant-grid1 {
-    background: url(images/nos_plantes/1.jpg);
+    background: url(../images/orange.jpg);
     grid-column: 1 / 3;
     grid-row: 1 / 3;
+    margin: 45;
+    padding: 25;
+    
 }
 
 .plant-grid2 {
-    background: url(images/nos_plantes/2.jpg);
+    background: url(../images/ananas.jpg);
     grid-column: 3 / 5;
+   
 }
 
+
 .plant-grid3 {
-    background: url(images/nos_plantes/3.jpg);
+    background: url(../images/fruit_de_la_pation.jpg);
     grid-column: 3 / 5;
+    margin: 45;
+    padding: 25;
 }
 
 .plant-grid4 {
@@ -274,6 +290,7 @@ body{
     background: url(images/nos_plantes/5.jpg);
     grid-column: 2 / 4;
     grid-row: 3 / 5;
+
 }
 
 .plant-grid6 {
